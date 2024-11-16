@@ -1,0 +1,75 @@
+﻿is_swaying_nobody = {
+	any_scheme = {
+		OR = {
+			scheme_type = courting
+			scheme_type = befriend
+			scheme_type = seduce
+			scheme_type = sway
+			scheme_type = learn_language
+			scheme_type = elope
+			scheme_type = convert_to_witchcraft
+			scheme_type = bond_with_dragon_scheme
+			scheme_type = deepen_bond_with_dragon_scheme
+		}
+		count < 1
+	}
+}
+
+can_sway = {
+	is_character_interaction_potentially_accepted = {
+		recipient = $TARGET$
+		interaction = sway_interaction
+	}
+}
+
+can_be_swayed_by = {
+	exists = $CHARACTER$
+	$CHARACTER$ = {
+		is_character_interaction_potentially_accepted = {
+			recipient = prev
+			interaction = sway_interaction
+		}
+	}
+}
+
+has_opinion_lower_than_50 = {
+	opinion = {
+		target = $TARGET$
+		value < 50
+	}
+}
+
+has_opinion_lower_than_100 = {
+	opinion = {
+		target = $TARGET$
+		value < 100
+	}
+}
+
+realm_priest_hates_me = {
+	exists = realm_priest
+	realm_priest = {
+		has_opinion_lower_than_50 = { TARGET = prev }
+	}
+}
+
+religious_head_hates_me = {
+	exists = faith
+	exists = faith.religious_head
+	faith.religious_head = {
+		has_opinion_lower_than_100 = { TARGET = prev }
+	}
+}
+
+spymaster_hates_me = {
+	exists = cp:councillor_spymaster
+	cp:councillor_spymaster = {
+		has_opinion_lower_than_100 = { TARGET = prev }
+	}
+}
+
+vassal_hates_the_liege = {
+	is_a_faction_member = yes
+	exists = liege
+	has_opinion_lower_than_100 = { TARGET = liege }
+}
