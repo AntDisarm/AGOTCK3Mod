@@ -1,0 +1,11 @@
+﻿l_spanish:
+  action_sway_reminder: "Puede influir a [recipient.GetRelationToString( GetPlayer )]"
+  action_sway_reminder_label: "Puede influir a [recipient.GetRelationToString( GetPlayer )], [recipient.GetShortUINameNoTooltip]"
+  action_sway_reminder_desc: "Tu [recipient.GetRelationToString( GetPlayer )], [recipient.GetShortUINameNoTooltip] tiene una opinión baja de ti, así que puede influir en [recipient.GetHerHim]."
+  action_sway_reminder_click: "#I Clic para influir [recipient.GetHerHim]#!"
+  action_sway_reminder_combined_group_name: "Puedes influir en personas"
+  action_sway_reminder_combined_group_label: "$action_sway_reminder_combined_group_name$"
+  action_sway_reminder_combined_group_description: "Varias personas de tu [dinasty|E] tienen una opinión baja de ti, así que puedes influir en [recipient.GetHerHim]."
+  action_sway_reminder_combined_label: "[recipient.GetRelationToString( GetPlayer )], [recipient.GetShortUINameNoTooltip]"
+  action_sway_reminder_combined_unimportant: "$action_sway_reminder_unimportant$"
+  action_sway_reminder_unimportant: "@warning_icon!#X Deberías centrarte en influir a alguien más importante primero"

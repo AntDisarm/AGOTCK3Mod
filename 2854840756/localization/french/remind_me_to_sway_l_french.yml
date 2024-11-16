@@ -1,0 +1,11 @@
+﻿l_french:
+  action_sway_reminder: "Vous pouvez influencer [recipient.GetRelationToString( GetPlayer )]"
+  action_sway_reminder_label: "Vous pouvez influencer [recipient.GetRelationToString( GetPlayer )], [recipient.GetShortUINameNoTooltip]"
+  action_sway_reminder_desc: "Votre [recipient.GetRelationToString( GetPlayer )], [recipient.GetShortUINameNoTooltip] a une faible opinion de vous, donc vous pouvez l'influencer."
+  action_sway_reminder_click: "#I Cliquer pour l'influencer#!"
+  action_sway_reminder_combined_group_name: "Vous pouvez influencer quelqu'un"
+  action_sway_reminder_combined_group_label: "$action_sway_reminder_combined_group_name$"
+  action_sway_reminder_combined_group_description: "Plusieurs membres de votre [dynasty|E] ont une faible opinion de vous, vous pouvez les influencer."
+  action_sway_reminder_combined_label: "[recipient.GetRelationToString( GetPlayer )], [recipient.GetShortUINameNoTooltip]"
+  action_sway_reminder_combined_unimportant: "$action_sway_reminder_unimportant$"
+  action_sway_reminder_unimportant: "@warning_icon!#X Vous devriez essayer d'influencer quelqu'un d'autre avant."
