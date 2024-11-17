@@ -17,7 +17,7 @@
 * **AGOT Micro Mod (Optional):**  The AGOT Micro mod is *optional* but recommended for players experiencing performance issues, especially in the later stages of the game.  It helps optimize the game and reduce lag.
 
 * **Manual Setup for Population Control:** The "Population Control (Reduce late-game lag)" mod requires a manual adjustment for compatibility with AGOT's dragons.  Follow these steps:
-    1. Open the "Population Control" mod folder.
-    2. Locate the mod's configuration file (likely a text file or a script file).
-    3. Find the variable named `AGOT_Dragons_safe`.
-    4. Change the value of `AGOT_Dragons_safe` from `0` to `1`.  This will prevent the mod from accidentally culling dragon riders, dragonslayers, and dragons themselves.  This manual change is *essential* for proper functionality with AGOT.  Failing to do so may result in unintended consequences, such as the removal of dragons from the game.
+1. Open the "Population Control" mod folder.
+2. Locate the mod's configuration file (likely a text file or a script file).
+3. Find the variable named `AGOT_Dragons_safe`.
+4. Change the value of `AGOT_Dragons_safe` from `0` to `1`.  This will prevent the mod from accidentally culling dragon riders, dragonslayers, and dragons themselves.  This manual change is *essential* for proper functionality with AGOT.  Failing to do so may result in unintended consequences, such as the removal of dragons from the game.
